@@ -1,0 +1,136 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Fondo general */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4fdf7;
+    color: #222;
+}
+
+/* Header */
+header {
+    background-color: #1B5E20;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 15px;
+}
+
+/* Menú */
+nav {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+nav button {
+    padding: 10px 18px;
+    border: none;
+    background-color: #43A047;
+    color: white;
+    cursor: pointer;
+    border-radius: 6px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+nav button:hover {
+    background-color: #2E7D32;
+}
+
+/* Secciones */
+.seccion {
+    padding: 30px;
+    max-width: 1100px;
+    margin: auto;
+}
+
+.oculto {
+    display: none;
+}
+
+/* Contenedor fecha */
+.fecha-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.fecha-container input {
+    padding: 8px;
+}
+
+.fecha-container button {
+    padding: 8px 15px;
+    border: none;
+    background-color: #1B5E20;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Tablas */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    overflow-x: auto;
+}
+
+th {
+    background-color: #2E7D32;
+    color: white;
+    padding: 12px;
+    font-size: 14px;
+}
+
+td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    font-size: 14px;
+    text-align: center;
+}
+
+/* Primera columna alineada */
+td:first-child {
+    width: 60px;
+}
+
+/* Segunda columna (nombre) */
+td:nth-child(2) {
+    text-align: left;
+    font-weight: 500;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    table {
+        font-size: 12px;
+    }
+
+    th, td {
+        padding: 8px;
+    }
+
+    .seccion {
+        padding: 15px;
+    }
+}
