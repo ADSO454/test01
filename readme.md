@@ -1,10 +1,10 @@
-# 📋 Control de Asistencia - ADSO SENA
+# Control de Asistencia - ADSO SENA
 
 Aplicación web sencilla desarrollada con **HTML, CSS y JavaScript** para simular el control de asistencia de una ficha del programa **Tecnólogo en Análisis y Desarrollo de Software (ADSO)** del SENA.
 
 ---
 
-## 🏫 Descripción
+## Descripción
 
 Este sistema permite:
 
@@ -17,7 +17,7 @@ El proyecto fue desarrollado con fines académicos y prácticos para formación 
 
 ---
 
-## 🚀 Tecnologías Utilizadas
+## Tecnologías Utilizadas
 
 - HTML5
 - CSS3
@@ -27,7 +27,7 @@ No utiliza frameworks ni bases de datos. Todo el funcionamiento es simulado desd
 
 ---
 
-## 📂 Estructura del Proyecto
+## Estructura del Proyecto
 📁 control-asistencia-adso
 │
 ├── index.html
@@ -35,21 +35,20 @@ No utiliza frameworks ni bases de datos. Todo el funcionamiento es simulado desd
 ├── script.js
 └── README.md
 
-
 ---
 
-## 🖥️ Funcionalidades
+## Funcionalidades
 
-### 1️⃣ Inicio
+### 1. Inicio
 Muestra información general sobre el programa ADSO del SENA.
 
-### 2️⃣ Registrar Asistencia
+### 2. Registrar Asistencia
 - Selector de fecha (del 02 al 28 de febrero de 2026).
 - Validación para permitir solo lunes a sábado.
 - Lista de aprendices con checkbox.
 - Botón **Registrar** que simula el guardado mediante una alerta.
 
-### 3️⃣ Ver Reporte
+### 3. Ver Reporte
 - Simulación de asistencia aleatoria.
 - Visualización de la primera semana:
   - 02
@@ -58,26 +57,26 @@ Muestra información general sobre el programa ADSO del SENA.
   - 05
   - 06 de febrero de 2026.
 
-### 4️⃣ Contacto
+### 4. Contacto
 Datos del creador del sistema.
 
 ---
 
-## 👨‍🏫 Lista de Aprendices
+## Lista de Aprendices
 
-Incluye 16 aprendices de la ficha ADSO.
+Incluye 16 aprendices de la ficha ADSO 3067454.
 
 ---
 
-## 🎨 Diseño
+## Diseño
 
-- Colores institucionales del SENA (tonos verdes).
+- Tonos verdes acordes a identidad SENA.
 - Diseño responsive básico.
 - Interfaz limpia y sencilla.
 
 ---
 
-## ▶️ Cómo Ejecutar el Proyecto
+## Cómo Ejecutar el Proyecto
 
 1. Descargar o clonar el repositorio.
 2. Abrir el archivo `index.html` en un navegador web.
@@ -85,7 +84,7 @@ Incluye 16 aprendices de la ficha ADSO.
 
 ---
 
-## 📌 Mejoras Futuras
+## Mejoras Futuras
 
 - Guardado real con LocalStorage.
 - Exportación a Excel.
@@ -95,15 +94,15 @@ Incluye 16 aprendices de la ficha ADSO.
 
 ---
 
-## 📞 Contacto
+## Contacto
 
 **Jeyson Zuñiga**  
-📧 jdzunigag@sena.edu.co  
-📱 +57 301 755 8381  
+jdzunigag@sena.edu.co  
++57 301 755 8381  
 
 ---
 
-## 📜 Licencia
+## Licencia
 
 Proyecto académico con fines educativos.
 
