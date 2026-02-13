@@ -28,4 +28,83 @@ No utiliza frameworks ni bases de datos. Todo el funcionamiento es simulado desd
 ---
 
 ## 📂 Estructura del Proyecto
+📁 control-asistencia-adso
+│
+├── index.html
+├── styles.css
+├── script.js
+└── README.md
+
+
+---
+
+## 🖥️ Funcionalidades
+
+### 1️⃣ Inicio
+Muestra información general sobre el programa ADSO del SENA.
+
+### 2️⃣ Registrar Asistencia
+- Selector de fecha (del 02 al 28 de febrero de 2026).
+- Validación para permitir solo lunes a sábado.
+- Lista de aprendices con checkbox.
+- Botón **Registrar** que simula el guardado mediante una alerta.
+
+### 3️⃣ Ver Reporte
+- Simulación de asistencia aleatoria.
+- Visualización de la primera semana:
+  - 02
+  - 03
+  - 04
+  - 05
+  - 06 de febrero de 2026.
+
+### 4️⃣ Contacto
+Datos del creador del sistema.
+
+---
+
+## 👨‍🏫 Lista de Aprendices
+
+Incluye 16 aprendices de la ficha ADSO.
+
+---
+
+## 🎨 Diseño
+
+- Colores institucionales del SENA (tonos verdes).
+- Diseño responsive básico.
+- Interfaz limpia y sencilla.
+
+---
+
+## ▶️ Cómo Ejecutar el Proyecto
+
+1. Descargar o clonar el repositorio.
+2. Abrir el archivo `index.html` en un navegador web.
+3. No requiere servidor ni instalación adicional.
+
+---
+
+## 📌 Mejoras Futuras
+
+- Guardado real con LocalStorage.
+- Exportación a Excel.
+- Cálculo de porcentaje de asistencia.
+- Conexión con base de datos.
+- Panel administrativo.
+
+---
+
+## 📞 Contacto
+
+**Jeyson Zuñiga**  
+📧 jdzunigag@sena.edu.co  
+📱 +57 301 755 8381  
+
+---
+
+## 📜 Licencia
+
+Proyecto académico con fines educativos.
+
 
